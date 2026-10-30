@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Float16 is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog) and added to the network as a stub for full-pipeline profiling.
-- https://float16.cloud/
+Float16 provides a cloud‑based platform that simplifies high‑performance numeric computing by offering APIs for fast, low‑precision floating‑point operations. The service targets developers building AI, graphics, and scientific applications that can benefit from reduced memory bandwidth and accelerated throughput. Float16’s offering includes SDKs, detailed documentation, and support for multiple programming languages, enabling seamless integration into existing workflows. By focusing on the niche of half‑precision computation, Float16 helps lower infrastructure costs while maintaining acceptable accuracy for many modern workloads.
+
+**Areas:** Company · Cloud · High Performance Computing · Artificial Intelligence
+
+## Float16 on APIs.io
+
+Everything profiled for Float16 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/float16/](https://apis.io/providers/float16/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Float16 Chat API](https://apis.io/apis/float16/float16-chat-api/) — The Chat API from Float16 — 3 operation(s) for chat.
+- [Float16 Fact API](https://apis.io/apis/float16/float16-fact-api/) — The Fact API from Float16 — 1 operation(s) for fact.
+- [Float16 Float16 API](https://apis.io/apis/float16/float16-float16-api-api/) — The Float16 API API from Float16 — 1 operation(s) for float16 api.
+- [Float16 Ocr API](https://apis.io/apis/float16/float16-ocr-api/) — The Ocr API from Float16 — 1 operation(s) for ocr.
+- [Float16 Task API](https://apis.io/apis/float16/float16-task-api/) — The Task API from Float16 — 2 operation(s) for task.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetInstanceidIdV1Response](https://apis.io/schemas/float16/float16-get-instanceid-id-v1-response/)
+- [PostInstanceidIdV1ChatCompletionsRequest](https://apis.io/schemas/float16/float16-post-instanceid-id-v1-chat-completions-request/)
+- [PostInstanceidIdV1ChatCompletionsResponse](https://apis.io/schemas/float16/float16-post-instanceid-id-v1-chat-completions-response/)
+- [PostTaskRunServerX7X2Dfl8ZuChatRequest](https://apis.io/schemas/float16/float16-post-task-run-server-x7-x2-dfl8-zu-chat-request/)
+- [PostV1ChatCompletionsRequest](https://apis.io/schemas/float16/float16-post-v1-chat-completions-request/)
+- [PostV1ChatRequest](https://apis.io/schemas/float16/float16-post-v1-chat-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Float16 Context](https://apis.io/jsonld/float16/float16-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Float16 API Rules](https://apis.io/rules/float16/float16-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Float16 Domain Security](https://apis.io/security/float16/float16-domain-security/)
+- [Float16 Trust Center](https://apis.io/security/float16/float16-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Float16 Plans Pricing](https://apis.io/plans/float16/float16-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://float16.cloud/)
+- [Documentation](https://float16.cloud/en-en/docs)
+- [Getting started](https://docs.float16.cloud/getting-started/introduction)
+- [API reference](https://float16.cloud/en-en/docs/api-reference/overview)
+- [Blog](https://float16.cloud/en-en/blog)
+- [Security](https://float16.cloud/security)
+- [Compliance](https://float16.cloud/security/)
+- [Terms of service](https://docs.float16.cloud/terms-and-conditions)
+- [Privacy policy](https://www.vultureprime.com/privacy)
+- [GitHub](https://github.com/float16)
+
+## API Evangelist rating
+
+**Kin Score 37.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 23.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 68.4 |
+
+**Agent readiness 18.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/float16/](https://apis.io/providers/float16/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Float16: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/float16/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
